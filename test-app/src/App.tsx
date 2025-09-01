@@ -1,3 +1,4 @@
+import Test2 from "./components/Test2"
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <div className="container">
 
+      <Test2 />
       
       </div>
     
