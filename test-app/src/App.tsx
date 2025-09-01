@@ -1,4 +1,5 @@
-import Test2 from "./components/Test2"
+
+import Test3 from "./components/Test3"
 
 
 function App() {
@@ -11,7 +12,7 @@ function App() {
     <>
       <div className="container">
 
-      <Test2 />
+      <Test3 />
       
       </div>
     
