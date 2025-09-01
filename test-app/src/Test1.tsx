@@ -23,11 +23,13 @@ export default function Test1(){
           <motion.div 
           initial={{
             rotate: "0deg",
-            scale: 0
+            scale: 0,
+            y: 0
           }}
           animate={{
             rotate: "180deg",
-            scale: 1
+            scale: 1,
+            y: 80
           }}
           transition={{
            duration: 1,
@@ -36,7 +38,8 @@ export default function Test1(){
           exit={{
             rotate: 0,
             backgroundColor: "red",
-            scale: 0
+            scale: 0,
+            y: 0
           }}
           className="square"
           ></motion.div>
